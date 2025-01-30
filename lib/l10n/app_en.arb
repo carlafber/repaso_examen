@@ -1,0 +1,23 @@
+{
+    "titleCon": "Converter",
+    "titleTrans": "Transactions",
+    "titleSet": "Settings",
+
+    "labelCon": "Value",
+    "hintCon": "Introduce value",
+    "hintTextoCon": "Introduce only numbers",
+    "hintOKCon": "Correct field",
+    "errorCon": "Complete the field",
+    "errorZeroCon": "Value cannot be zero",
+    "btCont": "Convert and save",
+    "resultCon": "Result: {resultado} {unidad}",
+    "valueSent": "Transaction saved correctly",
+
+    "themeSet": "Dark Theme",
+    "languageSet": "Language",
+    "textSet": "Text size",
+
+    "resultTrans": "Result",
+
+    "headerDrawer": "Menu"
+}

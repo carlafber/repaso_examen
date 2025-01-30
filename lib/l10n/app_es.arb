@@ -1,0 +1,23 @@
+{
+    "titleCon": "Conversor",
+    "titleTrans": "Transacciones",
+    "titleSet": "Ajustes",
+
+    "labelCon": "Valor",
+    "hintCon": "Introduce el valor",
+    "hintTextoCon": "Introduce números únicamente",
+    "hintOKCon": "Campo correto",
+    "errorCon": "Completa el campo",
+    "errorZeroCon": "El valor no puede ser cero",
+    "btCont": "Convertir y guardar",
+    "resultCon": "Resultado: {resultado} {unidad}",
+    "valueSent": "Transacción guardada con éxito",
+
+    "themeSet": "Modo oscuro",
+    "languageSet": "Idioma",
+    "textSet": "Tamaño del texto",
+
+    "resultTrans": "Resultado",
+
+    "headerDrawer": "Menú"
+}
