@@ -15,11 +15,11 @@ void main() {
 
     final provider_ajustes = ProviderAjustes();
 
-    expect(provider_ajustes.modoOscuroG, false);
+    expect(provider_ajustes.modoOscuro, false);
 
     provider_ajustes.toogleModoOscuro();
 
-    expect(provider_ajustes.modoOscuroG, true);
+    expect(provider_ajustes.modoOscuro, true);
 
   });
 
@@ -29,11 +29,11 @@ void main() {
 
     final provider_ajustes = ProviderAjustes();
 
-    expect(provider_ajustes.tamanoTextoG, 16);
+    expect(provider_ajustes.tamanoTexto, 16);
 
     provider_ajustes.toogleTamanoTexto();
 
-    expect(provider_ajustes.tamanoTextoG, 20);
+    expect(provider_ajustes.tamanoTexto, 20);
 
   });
 
