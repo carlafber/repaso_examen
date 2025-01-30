@@ -35,7 +35,7 @@ class Ajustes extends StatelessWidget {
                     child: ListTile(
                       title: Text(AppLocalizations.of(context)!.themeSet),
                       trailing: Switch(
-                        value: ajustesProvider.modoOscuro,
+                        value: ajustesProvider.modoOscuroG,
                         onChanged: (valor) {
                           ajustesProvider.cambiarModoOscuro(valor);
                         },
@@ -52,7 +52,7 @@ class Ajustes extends StatelessWidget {
                     child: ListTile(
                       title: Text(AppLocalizations.of(context)!.languageSet),
                       trailing: DropdownButton<String>(
-                        value: ajustesProvider.idioma.languageCode,
+                        value: ajustesProvider.idiomaG.languageCode,
                         items: idiomas.map((String idioma) {
                           return DropdownMenuItem(
                             value: idioma,
@@ -80,8 +80,8 @@ class Ajustes extends StatelessWidget {
                         min: 10.0,
                         max: 30.0,
                         divisions: 20,
-                        label: ajustesProvider.tamanoTexto.toStringAsFixed(1),
-                        value: ajustesProvider.tamanoTexto,
+                        label: ajustesProvider.tamanoTextoG.toStringAsFixed(1),
+                        value: ajustesProvider.tamanoTextoG,
                         onChanged: (valor) {
                           ajustesProvider.cambiarTamanoTexto(valor);
                         },
