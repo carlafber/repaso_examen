@@ -11,11 +11,6 @@ void main() {
     String unidadEntrada = 'km';
     String unidadSalida = 'm';
 
-    const conversionRates = {
-      'km': {'km': 1.0, 'm': 1000.0},
-      'm': {'km': 0.001, 'm': 1.0},
-    };
-
     /// Realizar la conversión
     double resultado = valorEntrada * conversor.conversionRates[unidadEntrada]![unidadSalida]!;
 
